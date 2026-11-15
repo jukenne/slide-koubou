@@ -1,0 +1,16 @@
+{
+  "name": "slide-koubou",
+  "productName": "スライド工房",
+  "version": "1.0.0",
+  "description": "見たまま操作で HTML スライドを作るツール",
+  "private": true,
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "node tools/pack.js"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.3.2"
+  }
+}
